@@ -24,9 +24,6 @@ def Método_da_Bissecção(f,a,b):
     print(f'A aproximação para raiz é {(m)}')
     print(it,'|',a,'|' , m,'|' ,b, '|',f(a),'|' , f(m),'|' ,f(b), '|',soma)
     
-    import math
-def sec(a):
-    a = 1/math.cos*1/math.cos
 
 def método_de_newton(f,fd, xi):
     e = 10**-5
